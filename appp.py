@@ -25,7 +25,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load data
-df = pd.read_csv("C:\\salessss\\train.csv")
+df = pd.read_csv("train.csv")
 
 # Sidebar Filters (Slicers)
 st.sidebar.header("Filter Data \n Atleast select one filter ")
