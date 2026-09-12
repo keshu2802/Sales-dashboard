@@ -45,7 +45,7 @@ df = df[df['Region'].isin(selected_regions)]
 df = df[df['Segment'].isin(selected_segments)]
 
 # Header
-image = Image.open("C:\\salessss\\Sales.jpg")
+image = Image.open("Sales.jpg")
 col1, col2 = st.columns([0.2, 0.8])
 with col1:
     st.image(image, width=150)
